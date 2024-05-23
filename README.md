@@ -4,7 +4,9 @@
 ## Description
 Superposing two 2D materials with a rotational misalignment theta and a mismatch gamma can produce a Moiré. Superlattice structure defined by a lattice parameter lambda. Check this reference for the lambda formula : <a href="https://www.science.org/doi/10.1126/sciadv.abf4387" target="_blank">DOI: 10.1126/sciadv.abf4387</a></li>
 <br>
-This project helps to calculate the lattice paramter and the distance relations in the k-space for both TMDs and the generated Moiré system
+This project helps to calculate the lattice parameter and the distance relations in the k-space for both TMDs and the generated Moiré system
+
+<img src="screenshot_app.png" alt="screenshot_app.png" style="width:400px;height:300px;"> 
 
 ## Usage
 You need to provide the two lattice parameters of your two 2Ds (It is recommended to assign the bigger parameter to the blue hexagon form) and the misalignment between the two interfaces. Then, the mismatch, the moiré lattice parameter as well as the reciprocal parameter for the three structure will be generated.
@@ -30,7 +32,7 @@ Let me know if you have any suggestions/ideas to enhance those scripts or add fu
 In case of a problem, It is strongly recommended to post an issue. For a more confidential demand, don't hesitate to email me.
 
 ## Acknowledgment
-I thank Geoffroy Kremer and Abdelkarim Ouerghi for testing and checking formulas in k-space.  
+I thank Geoffroy Kremer for testing and checking formulas in k-space.  
 
 
 
